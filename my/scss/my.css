@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+html {
+  font-size: 16px;
+  background: #ccc; }
+
+img {
+  display: block; }
+
+footer {
+  border-top: 1px solid #ccc;
+  background: white;
+  position: fixed;
+  bottom: 0; }
+  footer ul {
+    width: 100vw;
+    height: 3.59375rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around; }
+    footer ul li {
+      margin-top: -0.2rem; }
+      footer ul li a {
+        flex-wrap: wrap;
+        margin-top: 0.8rem; }
+        footer ul li a .iconfont {
+          display: block;
+          color: #a5a3a2;
+          font-size: 1.5rem; }
+        footer ul li a p {
+          display: block;
+          color: #a5a3a2;
+          font-size: 0.1rem; }
+    footer ul li:nth-child(5) {
+      height: 4.84375rem; }
+      footer ul li:nth-child(5) a {
+        flex-wrap: wrap;
+        height: 1.5625rem;
+        margin-top: 0.8rem; }
+        footer ul li:nth-child(5) a .iconfont {
+          display: block;
+          color: #0094fb;
+          font-size: 1.5rem; }
+        footer ul li:nth-child(5) a p {
+          display: block;
+          color: #0094fb; }
+
+header {
+  height: 14.59375rem;
+  background: white;
+  padding: 1rem; }
+  header .header_wrap {
+    height: 14.46875rem;
+    box-shadow: 0px 11px 8px -5px #ccc; }
+  header .header_one {
+    width: 21.1875rem;
+    height: 7.1875rem;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    display: flex; }
+    header .header_one .one_left {
+      display: flex;
+      width: 14.375rem;
+      margin-left: 1rem; }
+      header .header_one .one_left h2 {
+        font-weight: 600;
+        margin-top: 1rem; }
+      header .header_one .one_left .iconfont {
+        font-size: 1.5rem;
+        margin-top: 1.3rem; }
+    header .header_one .one_right {
+      float: right;
+      width: 3.3125rem;
+      height: 3.28125rem;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 3.28125rem;
+      font-size: 1.1rem;
+      background: #3396fb;
+      margin-top: 1.5rem;
+      margin-left: 1.4rem;
+      color: white; }
+  header .header_two {
+    width: 21.1875rem;
+    height: 8.125rem;
+    margin: -1rem auto;
+    border: 1px solid #ccc;
+    border-top: none; }
+    header .header_two .two_left {
+      width: 14.0625rem;
+      display: flex; }
+      header .header_two .two_left p {
+        margin-left: 1rem;
+        font-size: 1.2rem; }
+      header .header_two .two_left img {
+        width: 1.09375rem;
+        height: 1.09375rem;
+        margin-top: 0.3rem;
+        margin-left: 0.4rem; }
+      header .header_two .two_left span {
+        font-size: 0.8rem;
+        margin-top: 0.3rem;
+        margin-left: 0.4rem;
+        color: gray; }
+    header .header_two .blue {
+      width: 5.3125rem;
+      height: 1.40625rem;
+      background: #3596f7;
+      border-radius: 0.4rem;
+      display: flex;
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+      font-size: 0.8rem;
+      line-height: 1.40625rem; }
+    header .header_two .two_right {
+      width: 4.21875rem;
+      height: 1.65625rem;
+      border-radius: 2rem;
+      background: #fff5ec;
+      border: 1px solid #ff9031;
+      display: flex;
+      float: right;
+      margin-right: 1rem;
+      margin-top: -2rem;
+      text-align: center;
+      line-height: 1.5625rem;
+      color: #ff9031; }
+      header .header_two .two_right .icon-weibiaoti1fuzhi-copy {
+        margin-left: 0.6rem;
+        color: #ff9031; }
+  header .header_three {
+    width: 20.125rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    line-height: 2.5rem;
+    margin-top: -3.5rem; }
+
+.content_one {
+  height: 12.8125rem;
+  background: white;
+  margin-top: 0.5rem;
+  padding: 1rem; }
+  .content_one ul {
+    width: 90vw;
+    margin: 0 auto; }
+    .content_one ul li {
+      width: 100%;
+      height: 2.75rem;
+      display: flex;
+      line-height: 2.75rem;
+      justify-content: space-between; }
+      .content_one ul li img {
+        width: 2.1875rem;
+        height: 2.1875rem;
+        margin-top: 0.3rem; }
+      .content_one ul li div {
+        display: flex;
+        margin-left: 0.8rem;
+        flex: 1;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc; }
+        .content_one ul li div span {
+          display: block;
+          font-size: 1.5rem; }
+
+.content_two {
+  height: 10.90625rem;
+  background: white;
+  margin-top: 0.5rem;
+  padding: 1rem; }
+  .content_two ul {
+    width: 90vw;
+    margin: 0 auto; }
+    .content_two ul li {
+      width: 100%;
+      height: 2.75rem;
+      display: flex;
+      line-height: 2.75rem;
+      justify-content: space-between; }
+      .content_two ul li img {
+        width: 2.1875rem;
+        height: 2.1875rem;
+        margin-top: 0.3rem; }
+      .content_two ul li div {
+        display: flex;
+        margin-left: 0.8rem;
+        flex: 1;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc; }
+        .content_two ul li div span {
+          display: block;
+          font-size: 1.5rem; }
+
+.content_three {
+  height: 2.75rem;
+  background: white;
+  margin-top: 0.5rem; }
+  .content_three ul {
+    width: 90vw;
+    margin: 0 auto; }
+    .content_three ul li {
+      width: 100%;
+      height: 2.75rem;
+      display: flex;
+      line-height: 2.75rem;
+      justify-content: space-between; }
+      .content_three ul li img {
+        width: 2.1875rem;
+        height: 2.1875rem;
+        margin-top: 0.3rem; }
+      .content_three ul li div {
+        display: flex;
+        margin-left: 0.8rem;
+        flex: 1;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc; }
+        .content_three ul li div span {
+          display: block;
+          font-size: 1.5rem; }
+
+.content_four {
+  height: 6.03125rem;
+  margin-top: 0.5rem;
+  text-align: center; }
+  .content_four a {
+    color: #3396fb; }
+
+/*# sourceMappingURL=my.css.map */

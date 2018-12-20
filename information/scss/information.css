@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+html {
+  font-size: 16px;
+  background: #ccc; }
+
+img {
+  display: block; }
+
+footer {
+  border-top: 1px solid #ccc;
+  background: white;
+  position: fixed;
+  bottom: 0; }
+  footer ul {
+    width: 100vw;
+    height: 3.59375rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around; }
+    footer ul li {
+      margin-top: -0.2rem; }
+      footer ul li a {
+        flex-wrap: wrap;
+        margin-top: 0.8rem; }
+        footer ul li a .iconfont {
+          display: block;
+          color: #a5a3a2;
+          font-size: 1.5rem; }
+        footer ul li a p {
+          display: block;
+          color: #a5a3a2;
+          font-size: 0.1rem; }
+    footer ul li:nth-child(1) {
+      height: 4.84375rem; }
+      footer ul li:nth-child(1) a {
+        flex-wrap: wrap;
+        height: 1.5625rem;
+        margin-top: 0.8rem; }
+        footer ul li:nth-child(1) a .iconfont {
+          display: block;
+          color: #0094fb;
+          font-size: 1.5rem; }
+        footer ul li:nth-child(1) a p {
+          display: block;
+          color: #0094fb; }
+
+header {
+  height: 3.3125rem;
+  background: white;
+  border-bottom: 1px solid #ccc; }
+  header .header_one {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 3.3125rem;
+    display: flex; }
+    header .header_one .one_box {
+      flex: 1;
+      font-size: 1.2rem; }
+    header .header_one .two_box {
+      width: 10.625rem;
+      display: flex;
+      justify-content: space-between; }
+      header .header_one .two_box i {
+        font-size: 1.5rem;
+        color: #2c90f0; }
+
+.content {
+  background: white;
+  margin-top: 0.3rem; }
+  .content .content_list {
+    width: 90%;
+    margin: 0 auto; }
+    .content .content_list li {
+      width: 100%;
+      height: 3.125rem;
+      display: flex;
+      margin-top: 0.7rem; }
+      .content .content_list li img {
+        width: 3.125rem;
+        height: 3.125rem; }
+      .content .content_list li .list_box {
+        flex: 4;
+        width: 9.375rem;
+        margin-left: 1rem;
+        line-height: 1.4rem; }
+        .content .content_list li .list_box span {
+          font-size: 0.9rem;
+          color: gray; }
+      .content .content_list li time {
+        width: 3.125rem;
+        display: block;
+        line-height: 3.125rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: gray; }
+
+/*# sourceMappingURL=information.css.map */

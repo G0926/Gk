@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+html {
+  font-size: 16px; }
+
+header {
+  height: 3.75rem; }
+  header div {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 3.75rem; }
+    header div i {
+      font-size: 2rem;
+      color: #3296fa; }
+
+.content_one {
+  height: 5rem;
+  line-height: 5rem;
+  padding-left: 2.3rem; }
+  .content_one p {
+    font-size: 1.3rem; }
+
+.content_two {
+  height: 3.75rem;
+  line-height: 3.75rem;
+  padding-left: 2.3rem; }
+  .content_two p {
+    margin-top: 1.5rem; }
+
+.content_three {
+  height: 3.75rem; }
+  .content_three .three_box {
+    display: flex;
+    width: 80%;
+    height: 2.5rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc; }
+    .content_three .three_box div {
+      width: 94%;
+      display: flex;
+      font-size: 1.2rem; }
+      .content_three .three_box div .icon-xiajiantou {
+        margin-left: 0.5rem;
+        color: #c3c4c6; }
+      .content_three .three_box div span {
+        margin-left: 0.4rem;
+        color: #ccc; }
+      .content_three .three_box div tel {
+        margin-left: 0.7rem; }
+    .content_three .three_box i {
+      font-size: 1.2rem; }
+
+.content_four {
+  height: 3.75rem; }
+  .content_four div {
+    width: 90%;
+    margin: 0 auto;
+    background: #008cee;
+    text-align: center;
+    line-height: 3.75rem;
+    color: white;
+    border-radius: 0.5rem; }
+
+/*# sourceMappingURL=register.css.map */

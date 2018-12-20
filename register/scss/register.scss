@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+html{
+    font-size:16px; 
+}
+@function px2rem($px){
+    $rem:32px;
+    @return($px/$rem)+rem;
+}
+header{
+    height: px2rem(120px);
+    // background: red;
+   div{
+       height: 100%;
+       width: 90%;
+    //    background: green;
+       margin: 0 auto;
+       line-height: px2rem(120px);
+       i{
+          font-size:2rem;
+          color: #3296fa;
+        //   background: pink;
+       }
+   }
+}
+.content_one{
+    height: px2rem(160px);
+    // background: red;
+    line-height: px2rem(160px);
+    padding-left:2.3rem; 
+    p{
+        font-size:1.3rem;
+    }
+}
+.content_two{
+    height: px2rem(120px);
+    // background: red;
+    line-height: px2rem(120px);
+    padding-left: 2.3rem;
+    p{
+        margin-top: 1.5rem;
+    }
+}
+.content_three{
+    height: px2rem(120px);
+    // background: green;
+    .three_box{
+        display: flex;
+        width: 80%;
+        height: px2rem(80px);
+        margin: 0 auto;
+        // justify-content: space-around;
+        // padding-left: 2.3rem;
+        border-bottom: 1px solid #ccc;
+        div{
+          
+            width: 94%;
+            // flex: 1;
+            display: flex;
+            font-size: 1.2rem;
+            .icon-xiajiantou{
+                margin-left: 0.5rem;
+                color: #c3c4c6;
+            }
+            span{
+                margin-left: 0.4rem;
+                color: #ccc;
+            }
+            tel{
+                margin-left: 0.7rem;
+            }
+        }
+        i{
+            font-size: 1.2rem;
+            // width: -1%;
+        }
+    }
+}
+.content_four{
+    height: px2rem(120px);
+    // background: green;
+    div{
+        width: 90%;
+        margin: 0 auto;
+        background: #008cee;
+        text-align: center;
+        line-height: px2rem(120px);
+        color: white;
+        border-radius: 0.5rem;
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="arrow-left" unicode="&#59238;" d="M475.9 702.2l-293.2-293.2h754.3v-50h-754.3l293.2-293.2-35.4-35.4-353.5 353.6 353.6 353.6 35.3-35.4z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="xiajiantou" unicode="&#58921;" d="M535.12 184.4L870.528 540.8a29.376 29.376 0 0 1 0 42.352 31.376 31.376 0 0 1-43.52 0l-315.2-334.912-315.2 334.912a31.376 31.376 0 0 1-43.52 0 29.376 29.376 0 0 1 0-42.352l335.408-356.4a36.272 36.272 0 0 1 46.624 0z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="cuowu" unicode="&#58883;" d="M664.96 265.6a32 32 0 0 0-22.4-54.72 32 32 0 0 0-22.72 9.28L506.56 333.44 393.6 220.16a32 32 0 0 0-22.72-9.28 32 32 0 0 0-22.72 9.28 32 32 0 0 0 0 45.44l113.28 112.96-113.28 113.28a32 32 0 0 0 0 45.12 32 32 0 0 0 45.44 0L506.56 424l113.28 112.96a32 32 0 1 0 45.12-45.12L552 378.56zM512 832a448 448 0 1 1 448-448A448 448 0 0 1 512 832z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
